@@ -45,7 +45,7 @@ A ferramenta requer 3 argumentos para funcionar:
 
 #### Exemplo prático:
 
-Suponha que você tenha uma lista de subdomínios em um arquivo *wordlist.txt*. Para testá-los no domínio github.com e salvar os resultados em encontrados.txt, o comando seria:
+Suponha que você tenha uma lista de subdomínios em um arquivo *wordlist.txt*. Para testá-los no domínio github.com e salvar os resultados em *resultados.txt*, o comando seria:
 
 ```yaml
 ./dnsBrute_linux github.com wordlist.txt resultados.txt
@@ -53,7 +53,7 @@ Suponha que você tenha uma lista de subdomínios em um arquivo *wordlist.txt*. 
 O terminal exibirá o progresso em tempo real:
 
 ```yaml
-Iniciando busca por subdomínios... Resultados em 'encontrados.txt'
+Iniciando busca por subdomínios... Resultados em 'resultados.txt'
 Encontrado: www.github.com -> 140.82.121.4
 Encontrado: api.github.com -> 140.82.121.6
 ...
