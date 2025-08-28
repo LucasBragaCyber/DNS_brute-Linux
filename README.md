@@ -5,13 +5,13 @@ Uma ferramenta de linha de comando multithread, desenvolvida em C, para descobri
 Este script foi criado para automatizar a busca por subdomínios a partir de um domínio alvo e uma lista de palavras (wordlist). Ele é otimizado para desempenho e segurança, utilizando recursos nativos do ambiente Linux.
 
 ### Características Principais
-- Alto Desempenho com Multithreading: Utiliza um pool de até 50 threads (pthreads) para realizar múltiplas consultas DNS simultaneamente, tornando a busca bastante rápida.
+- **Alto Desempenho com Multithreading**: Utiliza um pool de até 50 threads (pthreads) para realizar múltiplas consultas DNS simultaneamente, tornando a busca bastante rápida.
 
-- Segurança na Escrita: Emprega um mutex para controlar o acesso ao arquivo de saída, garantindo que não haja conflitos ou dados corrompidos quando múltiplas threads encontram resultados ao mesmo tempo.
+- **Segurança na Escrita**: Emprega um mutex para controlar o acesso ao arquivo de saída, garantindo que não haja conflitos ou dados corrompidos quando múltiplas threads encontram resultados ao mesmo tempo.
 
-- Prevenção de Buffer Overflow: Utiliza a função snprintf para a concatenação de strings, evitando riscos de buffer overflow.
+- **Prevenção de Buffer Overflow**: Utiliza a função snprintf para a concatenação de strings, evitando riscos de buffer overflow.
 
-- Resolução de DNS Moderna: Faz uso da função getaddrinfo, que oferece suporte tanto para IPv4 quanto para IPv6.
+- **Resolução de DNS Moderna**: Faz uso da função getaddrinfo, que oferece suporte tanto para IPv4 quanto para IPv6.
 
 ### Pré-requisitos
 Para compilar e executar esta ferramenta, você precisará de:
