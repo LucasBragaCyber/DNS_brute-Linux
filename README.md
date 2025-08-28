@@ -45,7 +45,7 @@ A ferramenta requer 3 argumentos para funcionar:
 
 #### Exemplo prático:
 
-Suponha que você tenha uma lista de subdomínios em um arquivo subdominios.txt. Para testá-los no domínio github.com e salvar os resultados em encontrados.txt, o comando seria:
+Suponha que você tenha uma lista de subdomínios em um arquivo *wordlist.txt*. Para testá-los no domínio github.com e salvar os resultados em encontrados.txt, o comando seria:
 
 ```yaml
 ./dnsBrute_linux github.com wordlist.txt resultados.txt
